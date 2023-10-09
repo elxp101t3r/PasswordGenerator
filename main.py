@@ -8,7 +8,7 @@ n_letters = int(input('How many letters do you want inside your password?\n'))
 n_numbers = int(input('How many numbers do you want inside your password?\n'))
 n_symbols = int(input('How many symbols do you want inside your password?\n'))
 
-CHOICE = input('Do you want 1. basic password generator or 2. random?\n')
+CHOICE = int(input('Do you want 1. basic password generator or 2. random?\n'))
 def p_gen(letters, numbers, symbols, n_letters, n_numbers, n_symbols):
     password = ''
     for i in range(0, n_letters):
